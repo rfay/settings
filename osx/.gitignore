@@ -1,0 +1,13 @@
+.project
+.buildpath
+.settings
+nbproject/
+.idea
+.DS_Store
+db/db_*
+docroot/core/phpunit.xml
+docroot/drush
+docroot/sites/simpletest
+docroot/modules/contrib/devel
+*.orig
+*.rej
