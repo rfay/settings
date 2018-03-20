@@ -64,9 +64,9 @@ if [ -x /usr/bin/dircolors ]; then
 fi
 
 # some more ls aliases
-alias ll='ls -alF'
-alias la='ls -A'
-alias l='ls -CF'
+#alias ll='ls -alF'
+#alias la='ls -A'
+#alias l='ls -CF'
 
 # Alias definitions.
 # You may want to put all your additions into a separate file like
@@ -83,9 +83,6 @@ export PATH=$GOPATH/bin:/usr/local/bin:/usr/local/sbin:~/bin:$PATH
 # DRUD_GITHUBAUTHTOKEN for drud auth
 #export DRUD_GITHUBAUTHTOKEN=xxx
 #export DRUD_DEBUG=true
-
-alias bootstrap="cd $GOPATH/src/github.com/drud/bootstrap"
-alias gh="cd $GOPATH/src/github.com"
 
 NORMAL="\[\033[00m\]"
 BLUE="\[\033[01;34m\]"
@@ -104,4 +101,3 @@ function iterm2_print_user_vars() {
   fi
 }
 
-. ~/workspace/z/z.sh

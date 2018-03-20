@@ -11,3 +11,5 @@ docroot/sites/simpletest
 docroot/modules/contrib/devel
 *.orig
 *.rej
+.tarballs
+.ddev/docker-compose.yml

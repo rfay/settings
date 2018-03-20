@@ -17,9 +17,12 @@ if [ -f /usr/local/google-cloud-sdk/completion.bash.inc ]; then
   source '/usr/local/google-cloud-sdk/completion.bash.inc'
 fi
 
-source ~/kube-prompt.sh
+#source ~/kube-prompt.sh
 
 test -e "${HOME}/.iterm2_shell_integration.bash" && source "${HOME}/.iterm2_shell_integration.bash"
 
 export VAULT_ADDR=https://vault.drud.com:8200
-export DRUD_WORKSPACE=/User/rfay/workspace
+#export DRUD_WORKSPACE=/User/rfay/workspace
+
+# autojump is like 'z'
+[ -f /usr/local/etc/profile.d/autojump.sh ] && . /usr/local/etc/profile.d/autojump.sh
